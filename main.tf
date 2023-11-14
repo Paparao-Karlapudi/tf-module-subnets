@@ -7,7 +7,6 @@ module "subnets" {
   name = var.name
   vpc_id = var.vpc_id
   vpc_peering_connection_id = var.vpc_peering_connection_id
-  tags                      = local.common_tags
 
 }
 
